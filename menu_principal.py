@@ -23,25 +23,25 @@ while executando:
 
     # Estruturas de decisão para verificar a escolha do usuário
     if escolha == 1:
-
         print('\nIniciando monitoramento em tempo real...')
         print('Monitoramento ativo.\n')
-    elif escolha == 2:
 
+    elif escolha == 2:
         print('\nGerando alerta automático...')
         print('Alerta enviado para equipe de manutenção.\n')
-    elif escolha == 3:
 
+    elif escolha == 3:
         print('\nIniciando previsão de falhas...')
         print('Falha prevista. Intervenção agendada.\n')
-    elif escolha == 4:
 
+    elif escolha == 4:
         print('\nExibindo relatórios de performance...')
         print('Relatório de performance gerado.\n')
-    elif escolha == 5:
 
+    elif escolha == 5:
         print('\nSistema encerrado.\n')
-        executando = False  # Encerrar a repetição
+        break          # Encerrar a repetição
+
     else:
         # Caso o usuário insira uma opção inválida
         print('\nOpção inválida. Tente novamente.\n')
